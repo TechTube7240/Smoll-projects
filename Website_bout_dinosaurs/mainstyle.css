@@ -1,0 +1,14 @@
+header {
+    text-align: center;
+    
+}
+body {
+    display: grid;
+    grid-template-columns: 200px  1fr;
+    grid-template-rows: 100px 1fr 200px;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "aside main"
+    "footer footer";
+}
