@@ -1,14 +1,23 @@
 header {
-    text-align: center;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 body {
     display: grid;
     grid-template-columns: 200px  1fr;
-    grid-template-rows: 100px 1fr 200px;
+    grid-template-rows: 400px 1fr 200px;
     grid-template-areas: 
     "header header"
     "nav nav"
     "aside main"
     "footer footer";
+}
+nav {
+    height: 40px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
