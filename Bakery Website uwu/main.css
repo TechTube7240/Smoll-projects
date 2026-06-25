@@ -1,0 +1,30 @@
+:root {
+    --primary-clr: hsl(39, 100%, 52%);
+}
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: hsl(0, 0%, 96%);
+}
+.nav-bar {
+    background-color: var(--primary-clr);
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 1.2em;
+    height: 8vh;
+}
+.nav-links {
+    padding: 5px;
+    font-size: 1.25rem;
+    font-weight: 620;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    min-width: 4.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-links:hover {
+    background-color: hsl(39, 100%, 45%);
+}
