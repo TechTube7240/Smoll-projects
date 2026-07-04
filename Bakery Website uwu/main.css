@@ -32,6 +32,7 @@ body {
     position: relative;
     display: flex;
     justify-content: center;
+    font-size: 1.25rem;
 }
 #hero-header-img {
     height: 400px;
@@ -54,6 +55,7 @@ body {
     max-width: 500px;
 }
 .hero-buttons {
+    margin-top: 10px;
     display: flex;
     gap: 20px;
 
@@ -84,3 +86,60 @@ body {
 .hero-buttons a:hover {
     background-color: hsl(207, 4%, 50%);
 }
+.sections {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;;
+}
+.section-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 340px;
+    gap: 40px;
+}
+.section-one img {
+    border-radius: 5%;
+    justify-self: end;
+    align-self: center;
+}
+.section-one p {
+    font-size: 1.25rem;
+    max-width: 30ch;
+    justify-self: start;
+    align-self: center;
+}
+.section-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 340px;
+    gap: 40px;
+}
+.section-two img {
+    border-radius: 5%;
+    justify-self: start;
+    align-self: center;
+}
+.section-two p {
+    font-size: 1.25rem;
+    max-width: 30ch;
+    justify-self: end;
+    align-self: center;
+}
+.section-three {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 340px;
+    gap: 40px;
+}
+.section-three img {
+    border-radius: 5%;
+    justify-self: end;
+    align-self: center;
+}
+.section-three p {
+    font-size: 1.25rem;
+    max-width: 30ch;
+    justify-self: start;
+    align-self: center;
+}
+
