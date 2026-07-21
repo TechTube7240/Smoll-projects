@@ -29,15 +29,14 @@ aside {
 main {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    grid-template-rows: repeat(minmax(150px, 1fr));
-    margin: 5px;
+    align-content: start;
     gap: 15px;
+    margin: 20px;
 }
 .product-imgs {
     border: 1px solid;
     border-radius: 5px;
     width: 100%;
-    height: ;
     aspect-ratio: 1 / 1;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 1px 1px 7px hsl(0, 0%, 30%);
