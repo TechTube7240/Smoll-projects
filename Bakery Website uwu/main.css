@@ -5,7 +5,7 @@
 body {
     margin: 0;
     font-family: Arial;
-    background-color: hsl(0, 0%, 92%);
+    background-color: hsl(0, 0%, 95%);
 }
 .nav-bar {
     background-color: var(--primary-clr);
@@ -206,6 +206,23 @@ h2 {
     height: 13em;
     box-shadow: 8px 8px 15px hsl(0, 0%, 0%, 0.40);
 }
+.faqs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.faqs h2 {
+    font-size: 2rem;
+}
+.faqs details {
+    font-size: 1.3rem;
+    background-color: hsl(0, 0%, 100%);
+    width: 50vw;
+    border-radius: 5%;
+    padding: 1em;
+    margin: 0.2em;
+}
 footer {
     background-color: var(--primary-clr);
     padding: 5px;
@@ -213,7 +230,6 @@ footer {
     font-weight: 300;
     align-items: center;
     height: 90px;
-    
 }
 
 @media (max-width: 700px) {
