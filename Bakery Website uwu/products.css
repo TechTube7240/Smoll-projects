@@ -20,6 +20,7 @@ aside {
     border: 2px solid;
     border-radius: 5px;
     padding: 10px;
+    background-color: hsl(0, 0%, 100%);
 }
 .filters {
     display: flex;
@@ -46,4 +47,36 @@ footer {
     flex-direction: column;
     align-items: start;
     padding: 10px;
+}
+@media (max-width: 520px) {
+    body {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 8vh 32vh 1fr auto;
+        grid-template-areas: 
+        "navbar navbar"
+        "aside aside"
+        "main main"
+        "footer footer";
+    }
+    aside > div{
+        display: grid;
+        grid-auto-rows: 50px;
+        margin-left: 1.8em;
+        margin-right: 1.8em;
+        padding: 0.2em;
+    }
+    .filters {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.1rem;
+    }
+    main {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        align-content: start;
+        gap: 15px;
+        margin: 20px;
+    }
 }
