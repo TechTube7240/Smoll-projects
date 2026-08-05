@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+form {
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    width: 65vw;
+    height: 20em;
+    padding-top: 1em;
+    margin-top: 25%;
+    border-radius: 7%;
+    box-shadow: 5px 5px 20px hsla(0, 0%, 0%, 0.5);
+}
+h1 {
+    text-decoration: underline;
+}
+#inputBox {
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+.converter {
+    font-size: 1.45rem;
+    text-align: start;
+}
+#result {
+    color: hsl(208, 73%, 55%);
+    font-size: 1.8rem;
+}
+#calculateBtn {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin: 10px;
+    background-color: hsl(56, 91%, 71%);
+    border-radius: 18%;
+    box-shadow: 2px 2px 15px hsla(0, 0%, 0%, 0.2);
+
+    cursor: pointer;
+}
+#calculateBtn:hover {
+    background-color: hsl(56, 91%, 61%);
+}
