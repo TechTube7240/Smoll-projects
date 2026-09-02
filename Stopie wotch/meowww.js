@@ -1,5 +1,5 @@
 const stopwatch = document.getElementById("stopwatch");
-let startBtn = document.getElementById("startBtn");
+
 
 let timer = null;
 let isRunning = false;
@@ -21,7 +21,10 @@ function stop(){
     }
 }
 function reset(){
+    clearInterval(timer);
     stopwatch.textContent = "00:00:00:00"
+    startTime = 0;
+    elapsedTime = 0;
 }
 function update(){
     const currentTime = Date.now();
