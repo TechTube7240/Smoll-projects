@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section>
+        <input type="text" aria-label="City Name" placeholder="Enter Your City" id="city">
+        <button onclick="getWeather()">Get Weather</button>
+    </section>
+
+    <div id="container">
+        <h2 id="temperature">0°C</h2>
+
+        <img alt="" id="weatherImg">
+        <h2 id="weatherDescription"></h2>
+
+        <div id="extras">
+            <h3 id="feelsLike">Feels like </h3>
+            <h3 id="windSpeed">Wind Speed: </h3>
+            <h3 id="windDeg">Wind Deg: </h3>
+        </div>
+
+    </div>
+
+<script src="mewo.js"></script>
+</body>
+</html>

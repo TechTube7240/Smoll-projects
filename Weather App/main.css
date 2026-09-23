@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-height: 100vh;
+
+    background: linear-gradient(
+            135deg,
+            hsl(210 80% 85%),
+            hsl(270 70% 85%)
+    );
+}
+section {
+    display: flex;
+    margin-top: 1rem;
+}
+input {
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+    padding: 0.2rem;
+}
+button {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+    border: 1px solid hsl(0 0% 100% / 0.4);
+    box-shadow: 0 8px 32px hsl(0 0% 0% / 0.15);
+
+    background-color: hsl(0 4% 78% / 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    margin-top: 1.2rem;
+    height: 80vh;
+    width: 60vw;
+    border-radius: 10%;
+
+    font-size: 1.4rem;
+}
+
