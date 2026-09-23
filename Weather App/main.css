@@ -54,4 +54,10 @@ button {
 
     font-size: 1.4rem;
 }
-
+#extras {
+    margin-top: 20px;
+}
+.img {
+    align-self: center;
+    width: 6em;
+}
